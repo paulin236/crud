@@ -1,0 +1,120 @@
+/*.campos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+.opcion{
+    margin-left: 20rem;
+}
+
+h1{
+    text-align: center;
+}
+*/
+
+
+:root{
+    --prmario: #229ad1;
+    --secundario: #D33F49;
+    --blanco: #fff;
+    --negro: #000;
+    --letra: "Lato";
+}
+
+body{
+    font-family: var(--letra);
+    margin: 0;
+    height: 100vh;
+    background-color:azure;
+}
+
+*::first-letter{
+    text-transform: capitalize;
+}
+
+.listado{
+    margin: 50px auto;
+    padding: 25px;
+    background-color: var(--prmario);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+}
+
+form{
+    margin: 20px 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 35px auto;
+    grid-column-gap: 15px;
+}
+
+input{
+    border: none;
+    padding-left: 10px;
+    background-color: var(--blanco);
+}
+
+.añadir_boton{
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: var(--secundario);
+    color: var(--blanco);
+}
+
+select{
+    cursor: pointer;
+}
+
+
+.accionar_boton{
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 35px;
+    font-size: 18px;
+    background-color: var(--secundario);
+    color: var(--blanco);
+}
+
+.btn_accion{
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 35px;
+    font-size: 18px;
+}
+
+.btn_accion button{
+    border: none;
+    font-weight: bold;
+    height: 25px;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.btn_crear{
+    background-color:darkgreen;
+    color: var(--blanco);
+}
+
+.btn_borrar{
+    background-color: #D33F49;;
+    color: var(--blanco);
+}
+
+.btn_actualizar{
+    background-color:cornflowerblue;
+    color: var(--blanco);
+}
