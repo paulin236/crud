@@ -10,9 +10,6 @@
         <div class="contenedor">
         <div class="barra">
         
-            <nav class="nav-bg">
-                 </nav>
-                 <a href="index.html">    
         <h1> Proyecto <span> SIDESS</span></h1>
         </a>
         </div>
