@@ -11,9 +11,6 @@
         <div class="barra">
         
             <nav class="nav-bg">
-                <a href="Nosotros.html">Nosotros</a>
-                <a href="Cursos.html">Cursos</a>
-                <a href="Contacto.html">Contacto</a>
                  </nav>
                  <a href="index.html">    
         <h1> Proyecto <span> SIDESS</span></h1>
